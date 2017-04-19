@@ -4,7 +4,7 @@ DECLARE @packageNamePattern NVARCHAR(100) = ?;
 
 WITH cte AS 
 (
-	SELECT TOP (15)
+	SELECT TOP (50)
 		e.execution_id, 
 		e.project_name,
 		e.package_name,

@@ -37,7 +37,7 @@ cteLoglevel as
 	where
 		parameter_name = 'LOGGING_LEVEL'
 )
-select top 15
+select top 50
 	e.execution_id, 
 	e.project_name,
 	e.package_name,

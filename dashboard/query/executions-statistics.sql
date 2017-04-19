@@ -12,7 +12,7 @@ with numbers as
 ), calendar as
 (
 	select distinct 
-		cast(dateadd(hour, n * -1, sysdatetime()) as date) as calendar_date
+		cast(dateadd(hour, n * -8, sysdatetime()) as date) as calendar_date
 	from
 		numbers
 	where 
